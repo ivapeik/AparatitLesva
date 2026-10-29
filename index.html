@@ -36,6 +36,20 @@
 </header>
 
 <main>
+<section class="sec" id="result" style="background:var(--bg2)">
+ <div class="wrap">
+  <h2>ნედლი კედლიდან <mark>გალესილ</mark> ზედაპირამდე</h2>
+  <div class="cmp" id="cmp">
+   <div class="raw"></div>
+   <div class="smooth"></div>
+   <b class="l">ლესვამდე</b><b class="r">ლესვის შემდეგ</b>
+   <span class="bar" aria-hidden="true"></span>
+   <input type="range" min="2" max="98" value="50" aria-label="შეადარე კედელი ლესვამდე და შემდეგ">
+  </div>
+ </div>
+</section>
+
+
 <section class="sec" id="machine">
  <div class="wrap split">
   <h2>რატომ დანადგარით ლესვა ?</h2>
@@ -59,18 +73,7 @@
  </div>
 </section>
 
-<section class="sec" id="result" style="background:var(--bg2)">
- <div class="wrap">
-  <h2>ნედლი კედლიდან <mark>გალესილ</mark> ზედაპირამდე</h2>
-  <div class="cmp" id="cmp">
-   <div class="raw"></div>
-   <div class="smooth"></div>
-   <b class="l">ლესვამდე</b><b class="r">ლესვის შემდეგ</b>
-   <span class="bar" aria-hidden="true"></span>
-   <input type="range" min="2" max="98" value="50" aria-label="შეადარე კედელი ლესვამდე და შემდეგ">
-  </div>
- </div>
-</section>
+
 
 <section class="sec" id="process">
  <div class="wrap">
@@ -92,12 +95,13 @@
    <div class="direct">
     <span>ან დაგვირეკე პირდაპირ</span>
     <a href="tel:+995500000000">+995 500 00 00 00</a>
+    <a href="tel:+995500000000">+995 500 00 00 00</a>
    </div>
   </div>
   <div>
    <form id="form" novalidate>
     <div class="f"><label for="name">სახელი</label><input id="name" name="name" autocomplete="name" required></div>
-    <div class="f"><label for="phone">ტელეფონი</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="5XX XX XX XX" required></div>
+    <div class="f"><label for="phone">ტელეფონი</label><input id="phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" placeholder="995 5XX XX XX XX" required></div>
     <div class="two">
      <div class="f"><label for="city">ქალაქი ან რაიონი</label><input id="city" name="city" autocomplete="address-level2"></div>
      <div class="f"><label for="area">ფართობი, კვ.მ</label><input id="area" name="area" inputmode="numeric"></div>
@@ -105,7 +109,7 @@
     <div class="f"><label for="msg">კომენტარი</label><textarea id="msg" name="msg"></textarea></div>
     <input class="hp" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
     <div class="err" id="err" role="alert"></div>
-    <button class="btn" type="submit">გააგზავნე მოთხოვნა</button>
+    <button class="btn" type="submit">გაგზავნა</button>
    </form>
    <div class="ok" id="ok" role="status" hidden>
     <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M8 25l11 11 21-23"/></svg>
